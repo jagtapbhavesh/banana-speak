@@ -1,0 +1,103 @@
+ @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap'); 
+
+
+ :root {
+    --primary-color: #fce029;
+
+ }
+head {
+    font-family: 'Lobster', cursive; 
+}
+body{
+    font-family: 'Lobster', 
+    cursive; 
+    margin: 0px;
+
+}
+
+.container {
+    padding: 0rem 1rem;
+    margin:auto;
+
+} 
+
+ .navigation {
+    background-color: var(--primary-color);
+    color: black;
+    padding: 1rem 1rem;
+    border-bottom-left-radius: 1rem; 
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+}
+
+.minion{
+    padding: 2rem;
+    text-align: center;
+}
+
+.minion .minion-img{
+    max-width: 550px;
+    display: block;
+    margin: auto;
+}
+
+
+button{
+    text-decoration: dashed;
+    padding: 0.5rem 1rem;
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: black;
+}
+
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+textarea {
+    width: 90%;
+    height: 20vh;
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+#output {
+    border: 1px solid black;
+    height: 20vh;
+    width: 90%;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+footer{
+    background-color:
+     var(--primary-color); 
+    padding: 2rem 1rem; 
+    text-align: center;
+    color: black;
+    border-top-right-radius: 1rem;  
+
+}
+
+.footer .link{
+    color:black;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}
