@@ -33,11 +33,13 @@ function errorHandler(error){
 
 // info about what should happen when utton is clicked.
 function clickHandler() {
-   // to output ajsajs... in the start of output to test outputdiv.  
+   // to output ajsajs... in the start of output to test outputdiv and function clickhandler.  
    // outputDiv.innerText ="ajsajsajsajsjas " +txtInput.value;
 
    var text = txtInput.value // taking input
 
+
+   // function call 
    // calling server for processing 
    // calling api with fetch()
    fetch(getTranslationURL(text))
